@@ -12,7 +12,6 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Service = void 0;
 const inversify_1 = require("inversify");
 const types_1 = require("../types");
 let Service = class Service {
@@ -27,4 +26,4 @@ Service = __decorate([
     __param(0, (0, inversify_1.inject)(types_1.default.Empleado)),
     __metadata("design:paramtypes", [Object])
 ], Service);
-exports.Service = Service;
+exports.default = Service;
