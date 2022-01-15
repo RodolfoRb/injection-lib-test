@@ -2,7 +2,7 @@ import { Crud, IService } from "..";
 import { inject, injectable } from "inversify";
 import TYPES from "../types";
 @injectable()
-export default class Service implements IService {
+export class Service implements IService {
     constructor(@inject(TYPES.Empleado) private crud: Crud) {
 
     }
