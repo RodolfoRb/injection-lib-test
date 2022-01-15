@@ -1,10 +1,14 @@
 {
-    "name": "injection-lib-test",
-    "version": "1.0.0",
-    "description": "lib to test",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "files": [
-      "/dist"
-    ]
+  "name": "injection-lib-test",
+  "version": "1.0.0",
+  "description": "lib to test",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
   }
+}
