@@ -1,4 +1,4 @@
-
-export class TYPES {
-    static Empleado = Symbol("EmpleadoCrud");
+let TYPES = {
+    Empleado: Symbol("Empleado"),
 }
+export { TYPES };
