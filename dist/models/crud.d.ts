@@ -1,3 +1,3 @@
 export interface Crud {
-    id: number;
+    getId(): number;
 }
