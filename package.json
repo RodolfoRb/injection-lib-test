@@ -1,5 +1,5 @@
 {
-    "name": "rrb-lib",
+    "name": "injection-lib-test",
     "version": "1.0.0",
     "description": "lib to test",
     "main": "dist/index.js",
