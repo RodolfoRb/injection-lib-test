@@ -23,6 +23,7 @@ let Service = class Service {
     }
 };
 Service = __decorate([
+    (0, inversify_1.injectable)(),
     __param(0, (0, inversify_1.inject)(types_1.default.Empleado)),
     __metadata("design:paramtypes", [Object])
 ], Service);
