@@ -1,0 +1,10 @@
+{
+    "name": "rrb-lib",
+    "version": "1.0.0",
+    "description": "lib to test",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "/dist"
+    ]
+  }
