@@ -1,11 +1,11 @@
-import { Crud, TYPES } from "..";
+import { Crud, IService, TYPES } from "..";
 import { inject } from "inversify";
 
-export class Service {
-    constructor(@inject(TYPES.Empleado) private crud:Crud ){
+export class Service implements IService {
+    constructor(@inject(TYPES.Empleado) private crud: Crud) {
 
     }
-    sayHello(){
-        return this.crud.getId();
+    sayHello(): string {
+        return this.crud.getId().toString();
     }
 }

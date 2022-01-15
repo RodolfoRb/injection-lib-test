@@ -20,7 +20,7 @@ let Service = class Service {
         this.crud = crud;
     }
     sayHello() {
-        return this.crud.getId();
+        return this.crud.getId().toString();
     }
 };
 Service = __decorate([

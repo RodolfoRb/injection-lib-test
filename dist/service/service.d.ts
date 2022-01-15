@@ -1,6 +1,6 @@
-import { Crud } from "..";
-export declare class Service {
+import { Crud, IService } from "..";
+export declare class Service implements IService {
     private crud;
     constructor(crud: Crud);
-    sayHello(): number;
+    sayHello(): string;
 }
