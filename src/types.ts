@@ -1,4 +1,4 @@
 let TYPES = {
     Empleado: Symbol("Empleado"),
 }
-export { TYPES };
+export default TYPES;

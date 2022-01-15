@@ -1,4 +1,4 @@
 declare let TYPES: {
     Empleado: symbol;
 };
-export { TYPES };
+export default TYPES;

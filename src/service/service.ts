@@ -1,5 +1,6 @@
-import { Crud, IService, TYPES } from "..";
+import { Crud, IService } from "..";
 import { inject } from "inversify";
+import TYPES from "../types";
 
 export class Service implements IService {
     constructor(@inject(TYPES.Empleado) private crud: Crud) {

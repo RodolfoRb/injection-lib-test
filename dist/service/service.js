@@ -13,8 +13,8 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Service = void 0;
-const __1 = require("..");
 const inversify_1 = require("inversify");
+const types_1 = require("../types");
 let Service = class Service {
     constructor(crud) {
         this.crud = crud;
@@ -24,7 +24,7 @@ let Service = class Service {
     }
 };
 Service = __decorate([
-    __param(0, (0, inversify_1.inject)(__1.TYPES.Empleado)),
+    __param(0, (0, inversify_1.inject)(types_1.default.Empleado)),
     __metadata("design:paramtypes", [Object])
 ], Service);
 exports.Service = Service;
